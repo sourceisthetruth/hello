@@ -1,0 +1,10 @@
+title: Valid App 1
+version: 1.1.1
+maintainers:
+- name: firstmaintainer app1
+  email: firstmaintainer@hotmail.com
+company: New Random LLC.
+website: https://website.com
+source: https://github.com/random/repo
+license: Apache 2.0
+description: This metadata should be removed from the last company and stored under the new company name.

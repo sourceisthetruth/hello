@@ -1,0 +1,10 @@
+title: Valid App 1
+version: 0.1.1
+maintainers:
+- name: firstmaintainer app1
+  email: firstmaintainer@hotmail.com
+company: Random Inc.
+website: https://website.com
+source: https://github.com/random/repo
+license: Apache 2.0
+description: This is the version that should replace the last Valid App 1

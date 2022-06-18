@@ -1,0 +1,12 @@
+title: Different App Same Company
+version: 0.0.1
+maintainers:
+- name: different maintainer
+  email: differentmaintainer@hotmail.com
+- name: other app
+  email: otherapp@gmail.com
+company: Random Inc.
+website: https://website.com
+source: https://github.com/random/otherapp
+license: Apache 2.0
+description: When queried by company, this should be returned along with Valid App 1

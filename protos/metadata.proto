@@ -1,0 +1,32 @@
+syntax = "proto2";
+
+option go_package = "metadata/protos";
+package metadata;
+
+import "google/protobuf/descriptor.proto";
+
+message Maintainer {
+  required string name = 1;
+  required string email = 2;
+}
+
+message MetadataParam {
+  required string title = 1;
+
+  required string version = 2;
+
+  repeated Maintainer maintainers = 3;
+
+  required string company = 4;
+
+  required string website = 5;
+
+  required string source = 6;
+
+  required string license = 7;
+
+  required string description = 8;
+}
+
+
+
