@@ -62,7 +62,7 @@ func verifyNotMatchingSourceReturnsNull(client *http.Client) {
 }
 
 func verifyGetTitleReturnsError(client *http.Client) {
-	// GET empty metadata list when only title is specified
+	// GET error message when only title is specified
 	req, err := http.NewRequest("GET", *readAddr, nil)
 	q := req.URL.Query()
 	q.Add("title", "Title only shouldn't work")
