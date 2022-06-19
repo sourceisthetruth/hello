@@ -118,4 +118,5 @@ updated
  9. Test 9: a POST with a different company name but the same source path followed by a GET with the original company 
 name, a GET with the new company name, and a GET with the source path, to verify that the old company no longer 
 contains this metadata, the metadata belongs to the new company, and the source path maps to the updated metadata
->>>>>>> bd94005 (init commit)
+
+[Go]: https://golang.org
