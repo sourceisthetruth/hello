@@ -109,7 +109,7 @@ go run test_client/main.go
 should persist successfully 
  2. Test 2: a GET with non matching source path passed in the query parameter should return Null
  3. Test 3: a GET with just the title in the query parameter should return error
- 4. Test 4: a POST with invalid email should return error\
+ 4. Test 4: a POST with invalid email should return error
  5. Test 5: a POST with missing version should return error
  6. Test 6: a GET with both company and title in the query params should return matching metadata
  7. Test 7: a POST with payload having source path already stored in memory, followed by a GET, to verify metadata is 
